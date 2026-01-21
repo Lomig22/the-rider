@@ -1,0 +1,38 @@
+📸 INSTRUCTIONS POUR PLACER VOS PHOTOS
+==========================================
+
+Placez vos 5 photos dans ce dossier avec les noms suivants :
+
+1. hero-bg.jpg
+   → Photo : Course avec 2 pilotes sur circuit de terre
+   → Utilisation : Arrière-plan de la section Hero (H1)
+   
+2. jordan.jpg
+   → Photo : Pilote posant sur un rocher avec paysage de montagne
+   → Utilisation : Section "L'Identité du Rider"
+   
+3. action1.jpg
+   → Photo : Pilote avec projection de terre en virage
+   → Utilisation : Portfolio (Circuit Cross)
+   
+4. action2.jpg
+   → Photo : Pilote en virage serré avec projection de terre
+   → Utilisation : Portfolio (En Plein Vol)
+   
+5. action3.jpg
+   → Photo : Saut spectaculaire en compétition
+   → Utilisation : Portfolio (Vitesse Pure)
+   
+6. action4.jpg (optionnel - utilisera action1.jpg si absente)
+   → Utilisation : Portfolio (Projection)
+   
+7. bike.jpg (optionnel - utilisera action2.jpg si absente)
+   → Utilisation : Section "La Machine Bleue"
+
+==========================================
+FORMAT RECOMMANDÉ :
+- Format : JPG ou PNG
+- Qualité : Haute résolution
+- Hero : min 1920x1080px
+- Autres : min 1200x800px
+==========================================
