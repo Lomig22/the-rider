@@ -1,0 +1,140 @@
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║        📸  COPIEZ VOS 5 PHOTOS DE MOTOCROSS  📸             ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+Vous avez envoyé 5 superbes photos ! Voici comment les intégrer :
+
+
+┌─────────────────────────────────────────────────────────────┐
+│  PHOTO 1 : Course avec 2 pilotes sur circuit de terre      │
+│  ➜ Renommer en : hero-bg.jpg                               │
+│  📍 Utilisation : Arrière-plan de la section Hero (H1)      │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│  PHOTO 2 : Pilote avec projection de terre (couleurs vives)│
+│  ➜ Renommer en : action1.jpg                               │
+│  📍 Utilisation : Portfolio - Circuit Cross                 │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│  PHOTO 3 : Pilote en virage serré avec projection de sable │
+│  ➜ Renommer en : action2.jpg                               │
+│  📍 Utilisation : Portfolio - En Plein Vol                  │
+│              + Section "La Machine Bleue" (bike.jpg)        │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│  PHOTO 4 : Saut spectaculaire en compétition avec public   │
+│  ➜ Renommer en : action3.jpg                               │
+│  📍 Utilisation : Portfolio - Vitesse Pure                  │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│  PHOTO 5 : Pilote posant sur rocher avec paysage montagne  │
+│  ➜ Renommer en : jordan.jpg                                │
+│  📍 Utilisation : Section "L'Identité du Rider"            │
+└─────────────────────────────────────────────────────────────┘
+
+
+═══════════════════════════════════════════════════════════════
+                    🚀  3 MÉTHODES AU CHOIX  🚀
+═══════════════════════════════════════════════════════════════
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  MÉTHODE 1 : Script Automatique (⭐ RECOMMANDÉ)             ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+Terminal :
+  cd "/Users/admin/DEV AGENCY/DEV/the-rider-main"
+  ./copier-photos.sh ~/Downloads
+
+➜ Le script vous guide photo par photo ! 🎯
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  MÉTHODE 2 : Via le Finder (macOS)                          ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+1. Ouvrez le Finder
+2. Renommez vos 5 photos selon les noms ci-dessus
+3. Copiez-les dans le dossier :
+   /Users/admin/DEV AGENCY/DEV/the-rider-main/images/
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  MÉTHODE 3 : Commandes Terminal                             ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+cd ~/Downloads  # Allez où sont vos photos
+
+cp photo1.jpg "/Users/admin/DEV AGENCY/DEV/the-rider-main/images/hero-bg.jpg"
+cp photo2.jpg "/Users/admin/DEV AGENCY/DEV/the-rider-main/images/action1.jpg"
+cp photo3.jpg "/Users/admin/DEV AGENCY/DEV/the-rider-main/images/action2.jpg"
+cp photo4.jpg "/Users/admin/DEV AGENCY/DEV/the-rider-main/images/action3.jpg"
+cp photo5.jpg "/Users/admin/DEV AGENCY/DEV/the-rider-main/images/jordan.jpg"
+
+# Créer les copies pour les photos manquantes
+cp "/Users/admin/DEV AGENCY/DEV/the-rider-main/images/action1.jpg" \
+   "/Users/admin/DEV AGENCY/DEV/the-rider-main/images/action4.jpg"
+cp "/Users/admin/DEV AGENCY/DEV/the-rider-main/images/action2.jpg" \
+   "/Users/admin/DEV AGENCY/DEV/the-rider-main/images/bike.jpg"
+
+
+═══════════════════════════════════════════════════════════════
+                  ✅  VÉRIFICATION & TEST  ✅
+═══════════════════════════════════════════════════════════════
+
+1️⃣  Vérifiez que les photos sont bien copiées :
+   ls -lh "/Users/admin/DEV AGENCY/DEV/the-rider-main/images/"
+
+2️⃣  Lancez le serveur local :
+   cd "/Users/admin/DEV AGENCY/DEV/the-rider-main"
+   python3 -m http.server 8000
+
+3️⃣  Ouvrez dans votre navigateur :
+   http://localhost:8000
+
+4️⃣  Vérifiez que toutes vos photos s'affichent ! 🎉
+
+
+═══════════════════════════════════════════════════════════════
+                    📤  PUSH SUR GITHUB  📤
+═══════════════════════════════════════════════════════════════
+
+Une fois satisfait :
+
+  cd "/Users/admin/DEV AGENCY/DEV/the-rider-main"
+  git add images/*.jpg
+  git commit -m "📸 Ajout des photos officielles de Jordan"
+  git push origin main
+
+
+═══════════════════════════════════════════════════════════════
+               💡  PHOTOS OPTIONNELLES (bonus)  💡
+═══════════════════════════════════════════════════════════════
+
+Si vous avez d'autres photos de Jordan :
+
+  • action4.jpg  → Une 4ème photo d'action pour le portfolio
+  • bike.jpg     → Gros plan sur la moto
+
+Si vous ne les ajoutez pas, le site utilisera automatiquement
+des copies de action1.jpg et action2.jpg.
+
+
+═══════════════════════════════════════════════════════════════
+
+📚  DOCUMENTATION COMPLÈTE :
+
+   • GUIDE_PHOTOS.md        → Guide détaillé avec toutes les infos
+   • images/README.md       → Instructions dans le dossier images/
+   • copier-photos.sh       → Script automatique interactif
+
+═══════════════════════════════════════════════════════════════
+
+         🏍️  LE SITE VA ÊTRE MAGNIFIQUE ! 💨
+
+═══════════════════════════════════════════════════════════════
